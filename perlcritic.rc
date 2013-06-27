@@ -1,0 +1,26 @@
+severity=1
+
+[-Miscellanea::RequireRcsKeywords]
+
+[-ControlStructures::ProhibitPostfixControls]
+
+[-ValuesAndExpressions::ProhibitVersionStrings]
+[-ValuesAndExpressions::ProhibitConstantPragma]
+[-ValuesAndExpressions::ProhibitNoisyQuotes]
+
+[-Variables::ProhibitPunctuationVars]
+
+
+[-RegularExpressions::RequireDotMatchAnything]
+[-RegularExpressions::RequireLineBoundaryMatching]
+[-RegularExpressions::ProhibitComplexRegexes]
+[-RegularExpressions::RequireExtendedFormatting]
+[-RegularExpressions::ProhibitEnumeratedClasses]
+
+[-InputOutput::ProhibitInteractiveTest]
+
+[-Miscellanea::ProhibitUnrestrictedNoCritic]
+
+[Documentation::RequirePodSections]
+    lib_sections    = NAME | DESCRIPTION
+    script_sections = NAME | SYNOPSIS | OPTIONS | DESCRIPTION
